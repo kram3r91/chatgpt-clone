@@ -4,20 +4,24 @@
 @import "fonts.scss";
 
 * {
-  scrollbar-color: #424242 #212121; /* Thumb color and track color */
+  scrollbar-color: #424242 #aec7ff;
+  /* Thumb color and track color */
 }
 
 /* Global scrollbar styles for WebKit-based browsers (Chrome, Safari, etc.) */
 *::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
+  width: 12px;
+  /* Width of the scrollbar */
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #424242; /* Thumb color */
+  background-color: #424242;
+  /* Thumb color */
 }
 
 *::-webkit-scrollbar-track {
-  background-color: #212121; /* Track color */
+  background-color: #aec7ff;
+  /* Track color */
 }
 
 html,
@@ -26,19 +30,21 @@ body {
     Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif !important;
 }
+
 .font-bold,
 .bold {
   font-family: "KrungthaiFast-Bold" !important;
 }
 
-.bg{
-  background-color: #212121;
+.bg {
+  background-color: #aec7ff;
 }
 
 section {
   display: flex;
   justify-content: center;
   padding: 1rem;
+
   .content {
     width: 768px;
     display: flex;
@@ -90,19 +96,25 @@ div[data-slot="input-wrapper"] {
   font-size: 1rem !important;
   line-height: 1.5rem;
   white-space: pre-wrap;
-  textarea{
+
+  textarea {
     color: #fff !important;
     width: 95%;
-  font-size: 1rem !important;
+    font-size: 1rem !important;
 
 
   }
+
   textarea:focus {
-    outline: none; /* Standard rule */
-    -webkit-appearance: none; /* Disable WebKit focus outline */
-    -moz-appearance: none; /* Disable Firefox focus outline */
-    appearance: none; /* Disable appearance for other browsers */
-  font-size: 1rem !important;
+    outline: none;
+    /* Standard rule */
+    -webkit-appearance: none;
+    /* Disable WebKit focus outline */
+    -moz-appearance: none;
+    /* Disable Firefox focus outline */
+    appearance: none;
+    /* Disable appearance for other browsers */
+    font-size: 1rem !important;
 
   }
 }

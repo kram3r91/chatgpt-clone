@@ -160,7 +160,7 @@ export default function Home() {
                                   <div
                                     className={`${
                                       line.startsWith("You:")
-                                        ? "relative max-w-[70%] rounded-3xl px-5 py-2.5 bg-[#2F2F2F] dark:bg-token-main-surface-secondary"
+                                        ? "relative max-w-[70%] rounded-3xl px-5 py-2.5 bg-[#6089ea] dark:bg-token-main-surface-secondary"
                                         : "markdown prose w-full break-words dark:prose-invert dark"
                                     }`}
                                   >
@@ -185,7 +185,7 @@ export default function Home() {
           </div>
 
           <div className="md:pt-0 dark:border-white/20 md:border-transparent md:dark:border-transparent w-full">
-            <div className="m-auto  px-3 md:px-4 w-full md:px-5 lg:px-4 xl:px-5 fixed bottom-0 pb-4 bg-[#212121]">
+            <div className="m-auto  px-3 md:px-4 w-full md:px-5 lg:px-4 xl:px-5 fixed bottom-0 pb-4 bg-[#aec7ff]">
               <div className="mx-auto flex flex-1 gap-4 text-base md:gap-5 lg:gap-6 md:max-w-3xl">
                 <form onSubmit={handleSubmit} className="w-full">
                   <div className="relative flex h-full max-w-full flex-1 flex-col">
@@ -210,7 +210,7 @@ export default function Home() {
                                 maxRows={3}
                                 onChange={(e) => setMessage(e.target.value)}
                                 placeholder="Message to ChatGPT"
-                                className="flex-1 p-2 rounded-[26px]  bg-[#2F2F2F] !text-white "
+                                className="flex-1 p-2 rounded-[26px]  bg-[#6089ea] !text-white "
                                 classNames={{
                                   inputWrapper:
                                     "group-data-[focus-visible=true]:ring-0 group-data-[focus-visible=true]:ring-offset-0",
