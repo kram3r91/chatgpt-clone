@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+    <head>
+    <link rel="icon" href="/favicon.png" />
+    </head>
       <body className={`min-h-screen bg antialiased`}>
         <Providers>
           <div className=" flex flex-col justify-between min-h-screen">
