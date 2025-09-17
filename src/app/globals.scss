@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 @import "fonts.scss";
 
 * {
@@ -101,8 +99,7 @@ div[data-slot="input-wrapper"] {
     color: #fff !important;
     width: 95%;
     font-size: 1rem !important;
-
-
+    background-color: #6089ea;
   }
 
   textarea:focus {
