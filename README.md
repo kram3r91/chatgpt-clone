@@ -19,7 +19,7 @@ A chat application built with **Next.js** and **TypeScript**, featuring client-s
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/misterhamu/clone-chat-gpt
+git https://github.com/kram3r91/chatgpt-clone
 ```
 
 ### 2. Install dependencies
