@@ -72,8 +72,9 @@ section {
 
 button {
   padding: 10px;
-  width: 18%;
+  width: 10%;
   cursor: pointer;
+  background-color: #ffffff;
 }
 
 .chat-line {
@@ -96,8 +97,8 @@ div[data-slot="input-wrapper"] {
   white-space: pre-wrap;
 
   textarea {
-    color: #000000 !important;
-    width: 95%;
+    color: #fff !important;
+    width: 90%;
     font-size: 1rem !important;
     background-color: #6089ea;
   }

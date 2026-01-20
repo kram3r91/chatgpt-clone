@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ChatGPT Clone",
   description: "A ChatGPT using Next.js",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
 };
 
 export default function RootLayout({
@@ -18,9 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-    <head>
-    <link rel="icon" href="/favicon.png" />
-    </head>
+      <head>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body className={`min-h-screen bg antialiased`}>
         <Providers>
           <div className=" flex flex-col justify-between min-h-screen">
